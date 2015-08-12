@@ -55,4 +55,4 @@ set relativenumber
 set undofile
 
 " Get rid of trailing whitespace
-autocmd BufWritePre *.pl :%s/\s\+$//e
+autocmd BufWritePre *.py :%s/\s\+$//e
