@@ -56,3 +56,7 @@ set undofile
 
 " Get rid of trailing whitespace
 autocmd BufWritePre *.py :%s/\s\+$//e
+
+" Use 1000 levels of undo and cmd history
+set undolevels=1000
+set history=1000
