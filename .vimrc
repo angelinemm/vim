@@ -4,6 +4,8 @@ execute pathogen#infect()
 " syntax on
 syntax on
 filetype plugin indent on
+syntax enable
+au BufRead,BufNewFile *.capnp set filetype=capnp
 
 " Ignore case while searching
 set ignorecase
