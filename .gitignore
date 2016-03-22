@@ -4,3 +4,4 @@
 *.swo
 *.swn
 .DS_STORE
+.netrwhist
