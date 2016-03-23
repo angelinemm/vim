@@ -1,0 +1,10 @@
+[user]
+    email = angeline.muletmarquis@smarkets.com
+    name = angeline
+
+[alias]
+    st = status
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore_global
