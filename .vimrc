@@ -7,6 +7,12 @@ filetype plugin indent on
 syntax enable
 au BufRead,BufNewFile *.capnp set filetype=capnp
 
+" Colors
+colors candy
+
+" Ctrlp plugin
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 " Ignore case while searching
 set ignorecase
 
