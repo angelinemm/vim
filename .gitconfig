@@ -4,7 +4,31 @@
 
 [alias]
     st = status
+    co = checkout
+
+[log]
+    date = iso
+
+[color]
+    diff = auto
+    status = auto
+    branch = autoarn
+    interactive = auto
+    ui = true
+    pager = true
+
+[branch]
+    autosetuprebase = always
 
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
+
+[format]
+    pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+
+[push]
+    default = upstream
+
+[grep]
+    lineNumber = true
