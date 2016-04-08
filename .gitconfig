@@ -12,7 +12,7 @@
 [color]
     diff = auto
     status = auto
-    branch = autoarn
+    branch = auto
     interactive = auto
     ui = true
     pager = true
